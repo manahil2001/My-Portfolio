@@ -1,5 +1,6 @@
 # My-Portfolio
 
+- Fixed Navigation Bar.
 - Pink and white theme portfolio.
 - Fully Responsive.
 - Easy colour changes can be done through simple variable edits.
