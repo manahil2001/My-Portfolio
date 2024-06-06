@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+    
+}
+
+body{
+    background-color: rgba(255, 81, 81, 0.1);
+}
+
+header {
+    
+    padding-left: 5rem;
+    padding-top: 30px ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    
+}
+
+nav{
+    position: fixed;
+    
+}
+
+
+
+.navbar-brand {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+    margin-right: 7rem;
+    
+    
+}
+.navbar-brand span {
+    color: #ff9494;
+    
+}
+
+.navbar {
+    
+    margin-left: 0;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+
+
+
+.navbar a {
+    font-size: 1.1em;
+    font-family:  Cochin;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+    color: #555;
+    
+}
+.navbar a:hover {
+    color: #ff9494;
+}
+
+.navbar-toggler{
+    color: #ff9494;
+   background-color: #fff;
+   border-radius: 10px;
+   border: 2px solid #ff9494;
+   
+}
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #ff9494;
+    border-radius: 10px;
+    border: 2px solid #ff9494;
+    font-weight: 500;
+    transition: .3s;
+    width: 150px ;
+    margin-left: 200px;
+    margin-right: 2rem;
+}
+.btn-talk:hover {
+    color: #ff9494;
+    background: transparent;
+    
+}
+
+.home {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    padding:  6.25rem 0;
+    background-image: url(/Images/avatar1.jpg);
+    
+    
+    
+}
+.content {
+
+    max-width: 550px;
+    color: #555;
+    
+   
+    
+}
+
+
+.home .content h2 {
+    font-size: 3em;
+    font-family: Century Gothic;
+    
+}
+
+.home .content h2 span {
+    color: #ff9494;
+    font-family: Century Gothic ;
+    
+}
+
+.home .content h4 {
+
+    font-size: 2em;
+    font-family: Century Gothic ;
+}
+
+.home .content p {
+    padding: 10px 0 40px 0;
+    font-family: Century Gothic ;
+}
+
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #ff9494;
+    border-radius: 10px;
+    border: 2px solid #ff9494;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+    color: #ff9494;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+    color: #ff9494;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #ff9494;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #ff9494;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #ff9494;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}
+
+.about {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    padding-top:  6.25rem ;
+    
+    
+}
+
+.about h2{
+    color: #ff9494; 
+    font-size: 3em;
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.skills {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    padding-top: 6.25rem;
+   
+    
+}
+
+.skills h2{
+    color: #ff9494; 
+    font-size: 3em;
+}
+
+.progress{
+    border-radius: 10em;
+    background-color: #ffdede;
+    
+}
+
+.progress-bar{
+    background-color: #ff949477;
+}
+
+#projects h2 {
+    text-align: center;
+    color: #ff9494;
+    padding: 1.25rem;
+    font-size: 3em;
+}
+
+
+
+
+.col {
+    background-color: #ff949477;
+    padding: 0 ;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    text-align: center;
+    
+    
+
+    
+    
+}
+
+
+
+
+.carousel-control-prev-icon{
+    background-color: #ff616170;
+}
+.carousel-control-next-icon{
+    background-color: #ff616170;
+}
+
+
+.contact h2 {
+    text-align: center;
+    color: #ff9494;
+    padding: 1.25rem;
+    font-size: 3em;
+}
+
+.contact a{
+    
+    color: #555;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: #ff9494;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-left: -30px;
+        padding-right: 10px;
+        
+
+    }
+
+    
+
+    
+
+    .home{
+        
+        
+        background-size: contain;
+        
+    }
+
+    
+
+    .about{
+        padding: 10px;
+    }
+
+    .skills{
+        padding: 10px;
+    }
+
+    
+    
+    
+
+    
+
+}
